@@ -1,0 +1,1 @@
+{"epoch": 5, "train_loss": 1.356272210677465, "train_accuracy": 29.148065461052784, "_timestamp": 1662379067.1305816, "_runtime": 137.30473971366882, "_step": 11, "val_loss": 1.3380252785152857, "val_accuracy": 32.2468638949924, "_wandb": {"runtime": 149}}

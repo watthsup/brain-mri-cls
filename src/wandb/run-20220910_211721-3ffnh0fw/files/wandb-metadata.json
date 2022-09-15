@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-125-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-09-10T14:17:23.407009",
+    "startedAt": "2022-09-10T14:17:21.684846",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_count": 2,
+    "cpu_count": 256,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/data/users/6370327221/project/brain-mri-cls/src/train.py",
+    "codePath": "train.py",
+    "host": "unicorn.utc.chula.ac.th",
+    "username": "6370327221",
+    "executable": "/data/users/6370327221/miniconda3/envs/hcc-cuda/bin/python"
+}

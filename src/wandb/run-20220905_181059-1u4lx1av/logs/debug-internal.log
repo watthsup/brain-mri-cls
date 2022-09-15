@@ -1,0 +1,242 @@
+2022-09-05 18:10:59,814 INFO    StreamThr :2773271 [internal.py:wandb_internal():90] W&B internal server running at pid: 2773271, started at: 2022-09-05 18:10:59.813367
+2022-09-05 18:10:59,815 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: status
+2022-09-05 18:10:59,817 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: status
+2022-09-05 18:10:59,819 INFO    WriterThread:2773271 [datastore.py:open_for_write():75] open: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/run-1u4lx1av.wandb
+2022-09-05 18:10:59,819 DEBUG   SenderThread:2773271 [sender.py:send():302] send: header
+2022-09-05 18:10:59,819 DEBUG   SenderThread:2773271 [sender.py:send():302] send: run
+2022-09-05 18:11:00,490 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: check_version
+2022-09-05 18:11:00,496 INFO    SenderThread:2773271 [dir_watcher.py:__init__():216] watching files in: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files
+2022-09-05 18:11:00,496 INFO    SenderThread:2773271 [sender.py:_start_run_threads():913] run started: 1u4lx1av with start time 1662376259.809714
+2022-09-05 18:11:00,496 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:00,497 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:00,497 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: check_version
+2022-09-05 18:11:00,535 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: run_start
+2022-09-05 18:11:00,541 DEBUG   HandlerThread:2773271 [meta.py:__init__():35] meta init
+2022-09-05 18:11:00,542 DEBUG   HandlerThread:2773271 [meta.py:__init__():50] meta init done
+2022-09-05 18:11:00,542 DEBUG   HandlerThread:2773271 [meta.py:probe():216] probe
+2022-09-05 18:11:00,550 DEBUG   HandlerThread:2773271 [git.py:repo():40] git repository is invalid
+2022-09-05 18:11:00,550 DEBUG   HandlerThread:2773271 [meta.py:_save_pip():54] save pip
+2022-09-05 18:11:00,553 DEBUG   HandlerThread:2773271 [meta.py:_save_pip():68] save pip done
+2022-09-05 18:11:00,553 DEBUG   HandlerThread:2773271 [meta.py:_save_conda():75] save conda
+2022-09-05 18:11:01,498 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_created():275] file/dir created: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:01,498 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_created():275] file/dir created: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/requirements.txt
+2022-09-05 18:11:01,499 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_created():275] file/dir created: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/conda-environment.yaml
+2022-09-05 18:11:05,440 DEBUG   HandlerThread:2773271 [meta.py:_save_conda():85] save conda done
+2022-09-05 18:11:05,440 DEBUG   HandlerThread:2773271 [meta.py:probe():254] probe done
+2022-09-05 18:11:05,450 DEBUG   SenderThread:2773271 [sender.py:send():302] send: files
+2022-09-05 18:11:05,450 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-05 18:11:05,456 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 18:11:05,456 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 18:11:05,502 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/conda-environment.yaml
+2022-09-05 18:11:05,502 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_created():275] file/dir created: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-metadata.json
+2022-09-05 18:11:05,782 DEBUG   SenderThread:2773271 [sender.py:send():302] send: telemetry
+2022-09-05 18:11:06,201 INFO    Thread-16 :2773271 [upload_job.py:push():138] Uploaded file /tmp/tmpnnnrbj8jwandb/2xfhymby-wandb-metadata.json
+2022-09-05 18:11:07,835 DEBUG   SenderThread:2773271 [sender.py:send():302] send: telemetry
+2022-09-05 18:11:08,504 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_created():275] file/dir created: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:10,506 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:12,508 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:19,174 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:19,175 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:19,175 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:19,177 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:19,511 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:20,512 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:20,700 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:20,700 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:20,700 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:20,701 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:21,116 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 18:11:21,117 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 18:11:21,518 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:22,519 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:24,520 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:24,571 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:24,571 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:24,571 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:24,572 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:25,521 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:25,931 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:25,932 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:25,932 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:25,933 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:26,522 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:26,523 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:28,524 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:29,526 DEBUG   SenderThread:2773271 [sender.py:send():302] send: stats
+2022-09-05 18:11:29,789 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:29,790 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:29,790 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:29,896 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:30,526 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:30,526 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:30,526 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/config.yaml
+2022-09-05 18:11:31,192 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:31,193 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:31,193 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:31,194 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:31,526 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:32,540 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:34,542 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:34,883 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:34,883 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:34,884 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:34,885 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:35,543 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:36,383 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:36,384 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:36,384 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:36,385 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:36,441 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 18:11:36,442 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 18:11:36,544 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:36,544 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:38,551 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:39,959 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:39,959 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:39,959 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:39,964 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:40,553 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:41,667 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:41,668 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:41,668 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:41,669 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:42,565 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:42,565 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:46,567 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:47,191 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-05 18:11:47,192 DEBUG   SenderThread:2773271 [sender.py:send():302] send: history
+2022-09-05 18:11:47,192 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:47,193 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:47,567 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:48,568 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:52,111 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 18:11:52,111 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 18:11:52,833 DEBUG   SenderThread:2773271 [sender.py:send():302] send: telemetry
+2022-09-05 18:11:52,834 DEBUG   SenderThread:2773271 [sender.py:send():302] send: exit
+2022-09-05 18:11:52,834 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:52,834 INFO    SenderThread:2773271 [sender.py:send_exit():438] handling exit code: 1
+2022-09-05 18:11:52,834 INFO    SenderThread:2773271 [sender.py:send_exit():440] handling runtime: 52
+2022-09-05 18:11:52,836 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:52,836 INFO    SenderThread:2773271 [sender.py:send_exit():446] send defer
+2022-09-05 18:11:52,836 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:52,836 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:52,837 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-05 18:11:52,837 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:52,837 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-05 18:11:52,837 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 1
+2022-09-05 18:11:52,837 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:52,837 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-05 18:11:52,880 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:52,880 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-05 18:11:52,881 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 2
+2022-09-05 18:11:52,881 DEBUG   SenderThread:2773271 [sender.py:send():302] send: stats
+2022-09-05 18:11:52,881 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:52,881 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-05 18:11:52,881 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:52,881 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-05 18:11:52,881 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 3
+2022-09-05 18:11:52,881 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:52,881 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-05 18:11:52,882 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:52,882 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-05 18:11:52,882 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 4
+2022-09-05 18:11:52,882 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:52,882 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-05 18:11:52,882 DEBUG   SenderThread:2773271 [sender.py:send():302] send: summary
+2022-09-05 18:11:52,883 INFO    SenderThread:2773271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 18:11:52,883 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:52,883 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-05 18:11:52,883 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 5
+2022-09-05 18:11:52,883 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:52,883 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-05 18:11:52,883 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:52,883 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-05 18:11:52,938 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:53,236 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 6
+2022-09-05 18:11:53,236 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:53,237 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:53,238 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-05 18:11:53,238 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:53,238 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-05 18:11:53,338 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:53,571 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:53,571 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/config.yaml
+2022-09-05 18:11:53,915 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 7
+2022-09-05 18:11:53,915 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:53,916 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:53,916 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-05 18:11:53,916 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:53,916 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-05 18:11:53,916 INFO    SenderThread:2773271 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-05 18:11:54,017 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:54,571 INFO    Thread-12 :2773271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:54,572 INFO    SenderThread:2773271 [dir_watcher.py:finish():392] scan: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files
+2022-09-05 18:11:54,572 INFO    SenderThread:2773271 [dir_watcher.py:finish():406] scan save: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/config.yaml config.yaml
+2022-09-05 18:11:54,572 INFO    SenderThread:2773271 [dir_watcher.py:finish():406] scan save: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json wandb-summary.json
+2022-09-05 18:11:54,575 INFO    SenderThread:2773271 [dir_watcher.py:finish():406] scan save: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/requirements.txt requirements.txt
+2022-09-05 18:11:54,576 INFO    SenderThread:2773271 [dir_watcher.py:finish():406] scan save: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/conda-environment.yaml conda-environment.yaml
+2022-09-05 18:11:54,579 INFO    SenderThread:2773271 [dir_watcher.py:finish():406] scan save: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-metadata.json wandb-metadata.json
+2022-09-05 18:11:54,579 INFO    SenderThread:2773271 [dir_watcher.py:finish():406] scan save: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log output.log
+2022-09-05 18:11:54,585 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 8
+2022-09-05 18:11:54,585 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:54,585 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:54,585 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-05 18:11:54,585 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:54,586 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-05 18:11:54,588 INFO    SenderThread:2773271 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-05 18:11:54,689 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:54,689 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:54,791 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:54,791 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:54,893 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:54,894 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:54,997 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:54,997 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,098 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:55,098 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,200 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:55,200 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,301 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:55,301 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,351 INFO    Thread-17 :2773271 [upload_job.py:push():138] Uploaded file /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/config.yaml
+2022-09-05 18:11:55,352 INFO    Thread-18 :2773271 [upload_job.py:push():138] Uploaded file /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/wandb-summary.json
+2022-09-05 18:11:55,400 INFO    Thread-19 :2773271 [upload_job.py:push():138] Uploaded file /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/requirements.txt
+2022-09-05 18:11:55,402 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:55,403 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,424 INFO    Thread-20 :2773271 [upload_job.py:push():138] Uploaded file /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/conda-environment.yaml
+2022-09-05 18:11:55,448 INFO    Thread-21 :2773271 [upload_job.py:push():138] Uploaded file /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/files/output.log
+2022-09-05 18:11:55,504 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:55,504 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,605 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:55,605 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,648 INFO    Thread-11 :2773271 [sender.py:transition_state():459] send defer: 9
+2022-09-05 18:11:55,649 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:55,649 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-05 18:11:55,649 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:55,649 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-05 18:11:55,707 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:55,902 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 10
+2022-09-05 18:11:55,902 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:55,903 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:55,903 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-05 18:11:55,903 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:55,904 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-05 18:11:55,904 INFO    SenderThread:2773271 [sender.py:transition_state():459] send defer: 11
+2022-09-05 18:11:55,905 DEBUG   SenderThread:2773271 [sender.py:send():302] send: final
+2022-09-05 18:11:55,905 DEBUG   SenderThread:2773271 [sender.py:send():302] send: footer
+2022-09-05 18:11:55,905 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: defer
+2022-09-05 18:11:55,905 INFO    HandlerThread:2773271 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-05 18:11:55,905 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: defer
+2022-09-05 18:11:55,905 INFO    SenderThread:2773271 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-05 18:11:56,004 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-05 18:11:56,004 DEBUG   SenderThread:2773271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-05 18:11:56,005 INFO    SenderThread:2773271 [file_pusher.py:join():176] waiting for file pusher
+2022-09-05 18:11:56,725 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-05 18:11:56,727 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-05 18:11:56,728 DEBUG   HandlerThread:2773271 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-05 18:11:56,728 INFO    HandlerThread:2773271 [handler.py:finish():810] shutting down handler
+2022-09-05 18:11:56,905 INFO    WriterThread:2773271 [datastore.py:close():279] close: /data/users/6370327221/project/brain-mri-cls/src/wandb/run-20220905_181059-1u4lx1av/run-1u4lx1av.wandb
+2022-09-05 18:11:57,624 INFO    SenderThread:2773271 [sender.py:finish():1312] shutting down sender
+2022-09-05 18:11:57,624 INFO    SenderThread:2773271 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-05 18:11:57,624 INFO    SenderThread:2773271 [file_pusher.py:join():176] waiting for file pusher
+2022-09-05 18:11:58,732 INFO    MainThread:2773271 [internal.py:handle_exit():80] Internal process exited

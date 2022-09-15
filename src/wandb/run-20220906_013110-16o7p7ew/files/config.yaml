@@ -1,0 +1,64 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1662402670.782639
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      - 63
+      - 74
+      - 80
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      - 63
+      - 74
+      - 80
+      3:
+      - 1
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.9.13
+      5: 0.13.2
+      8:
+      - 5
+backbone:
+  desc: null
+  value: densenet121
+batch_size:
+  desc: null
+  value: 64
+classes:
+  desc: null
+  value: 4
+epoch:
+  desc: null
+  value: 100
+in_channels:
+  desc: null
+  value: 1
+lr:
+  desc: null
+  value: 0.0001
+lr_warmup:
+  desc: null
+  value: false
+pretrained:
+  desc: null
+  value: imagenet

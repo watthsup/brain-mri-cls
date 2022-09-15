@@ -1,0 +1,308 @@
+[X] Start training regnety_006_fold_5
+[X] Epoch 1 :
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:12<00:00,  2.98it/s, Cross_Entropy_loss - 0.8756, accuracy - 71.29]
+valid: 100%|███████████████████████████████| 9/9 [00:03<00:00,  2.62it/s, Cross_Entropy_loss - 0.6116, accuracy - 80.49]
+[X] Epoch 2 :
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:09<00:00,  3.79it/s, Cross_Entropy_loss - 0.3411, accuracy - 89.12]
+valid: 100%|████████████████████████████████| 9/9 [00:04<00:00,  1.92it/s, Cross_Entropy_loss - 0.272, accuracy - 90.41]
+[X] Epoch 3 :
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:11<00:00,  3.17it/s, Cross_Entropy_loss - 0.1859, accuracy - 94.26]
+
+valid: 100%|████████████████████████████████| 9/9 [00:06<00:00,  1.46it/s, Cross_Entropy_loss - 0.205, accuracy - 92.16]
+[X] Epoch 4 :
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:12<00:00,  2.88it/s, Cross_Entropy_loss - 0.1323, accuracy - 95.39]
+
+valid: 100%|███████████████████████████████| 9/9 [00:03<00:00,  2.83it/s, Cross_Entropy_loss - 0.1796, accuracy - 94.44]
+[X] Epoch 5 :
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:08<00:00,  4.06it/s, Cross_Entropy_loss - 0.1163, accuracy - 96.29]
+
+valid: 100%|███████████████████████████████| 9/9 [00:05<00:00,  1.59it/s, Cross_Entropy_loss - 0.1417, accuracy - 95.12]
+[X] Epoch 6 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:10<00:00,  3.34it/s, Cross_Entropy_loss - 0.08831, accuracy - 97.61]
+valid: 100%|██████████████████████████████| 9/9 [00:03<00:00,  2.67it/s, Cross_Entropy_loss - 0.09137, accuracy - 96.87]
+[X] Epoch 7 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:11<00:00,  3.18it/s, Cross_Entropy_loss - 0.06667, accuracy - 97.64]
+valid: 100%|███████████████████████████████| 9/9 [00:06<00:00,  1.39it/s, Cross_Entropy_loss - 0.1556, accuracy - 94.95]
+[X] Epoch 8 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:09<00:00,  3.96it/s, Cross_Entropy_loss - 0.06779, accuracy - 97.87]
+valid: 100%|███████████████████████████████| 9/9 [00:04<00:00,  2.19it/s, Cross_Entropy_loss - 0.1001, accuracy - 95.82]
+[X] Epoch 9 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:07<00:00,  4.78it/s, Cross_Entropy_loss - 0.04612, accuracy - 98.56]
+
+valid: 100%|███████████████████████████████| 9/9 [00:03<00:00,  2.96it/s, Cross_Entropy_loss - 0.1082, accuracy - 95.64]
+[X] Epoch 10 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:11<00:00,  3.05it/s, Cross_Entropy_loss - 0.04396, accuracy - 98.74]
+
+valid: 100%|███████████████████████████████| 9/9 [00:03<00:00,  2.39it/s, Cross_Entropy_loss - 0.1041, accuracy - 95.48]
+[X] Epoch 11 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:07<00:00,  4.84it/s, Cross_Entropy_loss - 0.03352, accuracy - 98.87]
+
+valid: 100%|███████████████████████████████| 9/9 [00:05<00:00,  1.53it/s, Cross_Entropy_loss - 0.1097, accuracy - 97.03]
+[X] Epoch 12 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:13<00:00,  2.75it/s, Cross_Entropy_loss - 0.03149, accuracy - 99.09]
+valid: 100%|██████████████████████████████| 9/9 [00:03<00:00,  2.29it/s, Cross_Entropy_loss - 0.09444, accuracy - 96.86]
+[X] Epoch 13 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:12<00:00,  2.87it/s, Cross_Entropy_loss - 0.03184, accuracy - 98.95]
+valid: 100%|███████████████████████████████| 9/9 [00:03<00:00,  2.26it/s, Cross_Entropy_loss - 0.1041, accuracy - 96.86]
+[X] Epoch 14 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:09<00:00,  3.69it/s, Cross_Entropy_loss - 0.03053, accuracy - 99.22]
+valid: 100%|███████████████████████████████| 9/9 [00:06<00:00,  1.42it/s, Cross_Entropy_loss - 0.0654, accuracy - 97.91]
+[X] Epoch 15 :
+
+
+train: 100%|█████████████████████████████| 36/36 [00:07<00:00,  4.66it/s, Cross_Entropy_loss - 0.0266, accuracy - 99.18]
+
+
+valid: 100%|██████████████████████████████| 9/9 [00:04<00:00,  1.81it/s, Cross_Entropy_loss - 0.06005, accuracy - 97.56]
+[X] Epoch 16 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:11<00:00,  3.16it/s, Cross_Entropy_loss - 0.02131, accuracy - 99.44]
+valid: 100%|██████████████████████████████| 9/9 [00:05<00:00,  1.74it/s, Cross_Entropy_loss - 0.08668, accuracy - 97.74]
+[X] Epoch 17 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:07<00:00,  4.76it/s, Cross_Entropy_loss - 0.03099, accuracy - 99.13]
+valid: 100%|████████████████████████████████| 9/9 [00:06<00:00,  1.44it/s, Cross_Entropy_loss - 0.113, accuracy - 96.69]
+[X] Epoch 18 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:08<00:00,  4.12it/s, Cross_Entropy_loss - 0.01938, accuracy - 99.39]
+valid: 100%|██████████████████████████████| 9/9 [00:06<00:00,  1.48it/s, Cross_Entropy_loss - 0.07501, accuracy - 97.91]
+[X] Epoch 19 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:08<00:00,  4.43it/s, Cross_Entropy_loss - 0.02097, accuracy - 99.65]
+
+valid: 100%|██████████████████████████████| 9/9 [00:06<00:00,  1.47it/s, Cross_Entropy_loss - 0.07732, accuracy - 97.38]
+[X] Epoch 20 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:11<00:00,  3.19it/s, Cross_Entropy_loss - 0.01186, accuracy - 99.78]
+valid: 100%|██████████████████████████████| 9/9 [00:05<00:00,  1.52it/s, Cross_Entropy_loss - 0.08574, accuracy - 97.38]
+[X] Epoch 21 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:11<00:00,  3.07it/s, Cross_Entropy_loss - 0.01548, accuracy - 99.52]
+
+valid: 100%|███████████████████████████████| 9/9 [00:05<00:00,  1.68it/s, Cross_Entropy_loss - 0.1096, accuracy - 96.68]
+[X] Epoch 22 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:11<00:00,  3.14it/s, Cross_Entropy_loss - 0.01529, accuracy - 99.57]
+valid: 100%|██████████████████████████████| 9/9 [00:03<00:00,  2.68it/s, Cross_Entropy_loss - 0.06799, accuracy - 97.55]
+[X] Epoch 23 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:12<00:00,  2.97it/s, Cross_Entropy_loss - 0.01334, accuracy - 99.61]
+
+valid: 100%|██████████████████████████████| 9/9 [00:02<00:00,  3.59it/s, Cross_Entropy_loss - 0.08827, accuracy - 96.86]
+[X] Epoch 24 :
+
+
+train: 100%|████████████████████████████| 36/36 [00:07<00:00,  4.74it/s, Cross_Entropy_loss - 0.01283, accuracy - 99.52]
+
+valid: 100%|██████████████████████████████| 9/9 [00:02<00:00,  3.22it/s, Cross_Entropy_loss - 0.08022, accuracy - 97.39]
+[X] Epoch 25 :
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:07<00:00,  4.84it/s, Cross_Entropy_loss - 0.01384, accuracy - 99.7]
+valid: 100%|███████████████████████████████| 9/9 [00:05<00:00,  1.61it/s, Cross_Entropy_loss - 0.0991, accuracy - 97.22]
+[X] Epoch 26 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:12<00:00,  2.95it/s, Cross_Entropy_loss - 0.02272, accuracy - 99.26]
+
+valid: 100%|███████████████████████████████| 9/9 [00:06<00:00,  1.46it/s, Cross_Entropy_loss - 0.1453, accuracy - 96.34]
+[X] Epoch 27 :
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:08<00:00,  4.03it/s, Cross_Entropy_loss - 0.0229, accuracy - 99.35]
+
+valid: 100%|███████████████████████████████| 9/9 [00:04<00:00,  2.13it/s, Cross_Entropy_loss - 0.1334, accuracy - 95.83]
+[X] Epoch 28 :
+
+
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:13<00:00,  2.73it/s, Cross_Entropy_loss - 0.01767, accuracy - 99.31]
+valid: 100%|███████████████████████████████| 9/9 [00:04<00:00,  1.85it/s, Cross_Entropy_loss - 0.1063, accuracy - 96.87]
+[X] Epoch 29 :
+
+
+
+train: 100%|███████████████████████████| 36/36 [00:12<00:00,  2.91it/s, Cross_Entropy_loss - 0.009315, accuracy - 99.87]
+valid: 100%|██████████████████████████████| 9/9 [00:02<00:00,  3.10it/s, Cross_Entropy_loss - 0.08566, accuracy - 96.69]
+[X] Epoch 30 :
+
+
+
+train: 100%|███████████████████████████| 36/36 [00:08<00:00,  4.33it/s, Cross_Entropy_loss - 0.007985, accuracy - 99.74]
+valid: 100%|██████████████████████████████| 9/9 [00:02<00:00,  3.29it/s, Cross_Entropy_loss - 0.08433, accuracy - 97.56]
+[X] Epoch 31 :
+
+
+train: 100%|███████████████████████████| 36/36 [00:07<00:00,  4.51it/s, Cross_Entropy_loss - 0.006214, accuracy - 99.83]
+
+
+valid: 100%|██████████████████████████████| 9/9 [00:06<00:00,  1.38it/s, Cross_Entropy_loss - 0.06106, accuracy - 98.08]
+[X] Epoch 32 :
+
+
+
+train: 100%|███████████████████████████| 36/36 [00:10<00:00,  3.28it/s, Cross_Entropy_loss - 0.008031, accuracy - 99.74]
+
+valid: 100%|██████████████████████████████| 9/9 [00:03<00:00,  2.42it/s, Cross_Entropy_loss - 0.09679, accuracy - 97.05]
+[X] Epoch 33 :
+
+
+
+train: 100%|████████████████████████████| 36/36 [00:11<00:00,  3.15it/s, Cross_Entropy_loss - 0.01091, accuracy - 99.57]
+
+valid: 100%|██████████████████████████████| 9/9 [00:06<00:00,  1.40it/s, Cross_Entropy_loss - 0.08371, accuracy - 97.21]
+[X] Epoch 34 :
+train:   6%|█▌                          | 2/36 [00:06<01:33,  2.76s/it, Cross_Entropy_loss - 0.003271, accuracy - 100.0]
+train:  33%|█████████▎                  | 12/36 [00:08<00:05,  4.04it/s, Cross_Entropy_loss - 0.01799, accuracy - 99.22]
+train:  58%|████████████████▎           | 21/36 [00:10<00:02,  5.62it/s, Cross_Entropy_loss - 0.02613, accuracy - 99.03]
+train: 100%|████████████████████████████| 36/36 [00:12<00:00,  2.91it/s, Cross_Entropy_loss - 0.01792, accuracy - 99.44]
+train: 100%|████████████████████████████| 36/36 [00:12<00:00,  2.91it/s, Cross_Entropy_loss - 0.01792, accuracy - 99.44]
+[X] Epoch 35 :██████████████████████████| 36/36 [00:12<00:00,  2.91it/s, Cross_Entropy_loss - 0.01792, accuracy - 99.44]
+[X] Epoch 35 :██████████████████████████| 36/36 [00:12<00:00,  2.91it/s, Cross_Entropy_loss - 0.01792, accuracy - 99.44]
+[X] Epoch 35 :██████████████████████████| 36/36 [00:12<00:00,  2.91it/s, Cross_Entropy_loss - 0.01792, accuracy - 99.44]
+[X] Epoch 35 :██████████████████████████| 36/36 [00:12<00:00,  2.91it/s, Cross_Entropy_loss - 0.01792, accuracy - 99.44]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+valid:  11%|███▎                          | 1/9 [00:01<00:13,  1.68s/it, Cross_Entropy_loss - 0.08228, accuracy - 96.88]
+train:   0%|                                                                                     | 0/36 [00:00<?, ?it/s]
+train:   8%|██▍                          | 3/36 [00:06<00:51,  1.55s/it, Cross_Entropy_loss - 0.04659, accuracy - 98.96]
+train:  39%|██████████▉                 | 14/36 [00:08<00:04,  5.04it/s, Cross_Entropy_loss - 0.01466, accuracy - 99.78]
+train:  64%|█████████████████▉          | 23/36 [00:10<00:02,  5.08it/s, Cross_Entropy_loss - 0.01378, accuracy - 99.73]
+train: 100%|█████████████████████████████| 36/36 [00:12<00:00,  2.90it/s, Cross_Entropy_loss - 0.01273, accuracy - 99.7]
+[X] Epoch 37 :███████████████████████████| 36/36 [00:12<00:00,  2.90it/s, Cross_Entropy_loss - 0.01273, accuracy - 99.7]
+[X] Epoch 37 :███████████████████████████| 36/36 [00:12<00:00,  2.90it/s, Cross_Entropy_loss - 0.01273, accuracy - 99.7]
+[X] Epoch 37 :███████████████████████████| 36/36 [00:12<00:00,  2.90it/s, Cross_Entropy_loss - 0.01273, accuracy - 99.7]
+[X] Epoch 37 :███████████████████████████| 36/36 [00:12<00:00,  2.90it/s, Cross_Entropy_loss - 0.01273, accuracy - 99.7]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+valid:  11%|███▎                          | 1/9 [00:01<00:13,  1.67s/it, Cross_Entropy_loss - 0.07698, accuracy - 96.88]
+valid:  22%|██████▉                        | 2/9 [00:05<00:20,  2.94s/it, Cross_Entropy_loss - 0.1167, accuracy - 95.31]
+train:   0%|                                                                                     | 0/36 [00:00<?, ?it/s]
+train:  22%|██████▍                      | 8/36 [00:07<00:08,  3.34it/s, Cross_Entropy_loss - 0.01994, accuracy - 99.61]
+train:  44%|████████████▉                | 16/36 [00:09<00:03,  5.91it/s, Cross_Entropy_loss - 0.01243, accuracy - 99.8]
+train:  75%|█████████████████████       | 27/36 [00:11<00:01,  4.91it/s, Cross_Entropy_loss - 0.01018, accuracy - 99.83]
+train: 100%|███████████████████████████| 36/36 [00:12<00:00,  2.83it/s, Cross_Entropy_loss - 0.008708, accuracy - 99.87]
+[X] Epoch 39 :█████████████████████████| 36/36 [00:12<00:00,  2.83it/s, Cross_Entropy_loss - 0.008708, accuracy - 99.87]
+[X] Epoch 39 :█████████████████████████| 36/36 [00:12<00:00,  2.83it/s, Cross_Entropy_loss - 0.008708, accuracy - 99.87]
+[X] Epoch 39 :█████████████████████████| 36/36 [00:12<00:00,  2.83it/s, Cross_Entropy_loss - 0.008708, accuracy - 99.87]
+[X] Epoch 39 :█████████████████████████| 36/36 [00:12<00:00,  2.83it/s, Cross_Entropy_loss - 0.008708, accuracy - 99.87]
+[X] Epoch 39 :█████████████████████████| 36/36 [00:12<00:00,  2.83it/s, Cross_Entropy_loss - 0.008708, accuracy - 99.87]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+valid:  11%|███▍                           | 1/9 [00:02<00:21,  2.64s/it, Cross_Entropy_loss - 0.2503, accuracy - 93.75]
+valid:  89%|███████████████████████████▌   | 8/9 [00:05<00:00,  2.31it/s, Cross_Entropy_loss - 0.1049, accuracy - 96.68]
+train:   0%|                                                                                     | 0/36 [00:00<?, ?it/s]
+train:  19%|█████▍                      | 7/36 [00:07<00:11,  2.53it/s, Cross_Entropy_loss - 0.004482, accuracy - 100.0]
+train:  47%|█████████████▏              | 17/36 [00:09<00:03,  5.80it/s, Cross_Entropy_loss - 0.01037, accuracy - 99.72]
+train:  78%|█████████████████████▊      | 28/36 [00:11<00:01,  5.52it/s, Cross_Entropy_loss - 0.01151, accuracy - 99.61]
+train: 100%|████████████████████████████| 36/36 [00:12<00:00,  2.80it/s, Cross_Entropy_loss - 0.01088, accuracy - 99.65]
+train: 100%|████████████████████████████| 36/36 [00:12<00:00,  2.80it/s, Cross_Entropy_loss - 0.01088, accuracy - 99.65]
+[X] Epoch 41 :██████████████████████████| 36/36 [00:12<00:00,  2.80it/s, Cross_Entropy_loss - 0.01088, accuracy - 99.65]
+[X] Epoch 41 :██████████████████████████| 36/36 [00:12<00:00,  2.80it/s, Cross_Entropy_loss - 0.01088, accuracy - 99.65]
+[X] Epoch 41 :██████████████████████████| 36/36 [00:12<00:00,  2.80it/s, Cross_Entropy_loss - 0.01088, accuracy - 99.65]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+train:   0%|                                                                                     | 0/36 [00:00<?, ?it/s]
+train:  25%|███████                     | 9/36 [00:08<00:07,  3.61it/s, Cross_Entropy_loss - 0.008855, accuracy - 99.65]
+train:  53%|██████████████▎            | 19/36 [00:10<00:03,  4.65it/s, Cross_Entropy_loss - 0.009067, accuracy - 99.67]
+train:  94%|██████████████████████████▍ | 34/36 [00:12<00:00,  7.80it/s, Cross_Entropy_loss - 0.01013, accuracy - 99.68]
+train: 100%|█████████████████████████████| 36/36 [00:12<00:00,  2.82it/s, Cross_Entropy_loss - 0.01153, accuracy - 99.6]
+train: 100%|█████████████████████████████| 36/36 [00:12<00:00,  2.82it/s, Cross_Entropy_loss - 0.01153, accuracy - 99.6]
+[X] Epoch 43 :███████████████████████████| 36/36 [00:12<00:00,  2.82it/s, Cross_Entropy_loss - 0.01153, accuracy - 99.6]
+[X] Epoch 43 :███████████████████████████| 36/36 [00:12<00:00,  2.82it/s, Cross_Entropy_loss - 0.01153, accuracy - 99.6]
+[X] Epoch 43 :███████████████████████████| 36/36 [00:12<00:00,  2.82it/s, Cross_Entropy_loss - 0.01153, accuracy - 99.6]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+valid:  44%|█████████████▊                 | 4/9 [00:02<00:01,  2.68it/s, Cross_Entropy_loss - 0.1187, accuracy - 96.88]
+train:   0%|                                                                                     | 0/36 [00:00<?, ?it/s]
+train:  22%|██████▏                     | 8/36 [00:06<00:07,  3.68it/s, Cross_Entropy_loss - 0.001435, accuracy - 100.0]
+train:  56%|███████████████            | 20/36 [00:07<00:03,  4.97it/s, Cross_Entropy_loss - 0.001603, accuracy - 100.0]
+train: 100%|███████████████████████████| 36/36 [00:10<00:00,  3.57it/s, Cross_Entropy_loss - 0.002176, accuracy - 99.96]
+train: 100%|███████████████████████████| 36/36 [00:10<00:00,  3.57it/s, Cross_Entropy_loss - 0.002176, accuracy - 99.96]
+[X] Epoch 45 :█████████████████████████| 36/36 [00:10<00:00,  3.57it/s, Cross_Entropy_loss - 0.002176, accuracy - 99.96]
+[X] Epoch 45 :█████████████████████████| 36/36 [00:10<00:00,  3.57it/s, Cross_Entropy_loss - 0.002176, accuracy - 99.96]
+[X] Epoch 45 :█████████████████████████| 36/36 [00:10<00:00,  3.57it/s, Cross_Entropy_loss - 0.002176, accuracy - 99.96]
+[X] Epoch 45 :█████████████████████████| 36/36 [00:10<00:00,  3.57it/s, Cross_Entropy_loss - 0.002176, accuracy - 99.96]
+valid:  11%|███▎                          | 1/9 [00:01<00:14,  1.83s/it, Cross_Entropy_loss - 0.05778, accuracy - 98.44]
+[X] Epoch 46 :█▎                          | 1/9 [00:01<00:14,  1.83s/it, Cross_Entropy_loss - 0.05778, accuracy - 98.44]
+[X] Epoch 46 :█▎                          | 1/9 [00:01<00:14,  1.83s/it, Cross_Entropy_loss - 0.05778, accuracy - 98.44]
+[X] Epoch 46 :█▎                          | 1/9 [00:01<00:14,  1.83s/it, Cross_Entropy_loss - 0.05778, accuracy - 98.44]
+[X] Epoch 46 :█▎                          | 1/9 [00:01<00:14,  1.83s/it, Cross_Entropy_loss - 0.05778, accuracy - 98.44]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+[X] Epoch 47 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 47 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 47 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 47 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 47 :                                                                                    | 0/9 [00:00<?, ?it/s]
+valid:  11%|███▎                          | 1/9 [00:01<00:10,  1.32s/it, Cross_Entropy_loss - 0.02988, accuracy - 98.44]
+[X] Epoch 48 :█▎                          | 1/9 [00:01<00:10,  1.32s/it, Cross_Entropy_loss - 0.02988, accuracy - 98.44]
+[X] Epoch 48 :█▎                          | 1/9 [00:01<00:10,  1.32s/it, Cross_Entropy_loss - 0.02988, accuracy - 98.44]
+[X] Epoch 48 :█▎                          | 1/9 [00:01<00:10,  1.32s/it, Cross_Entropy_loss - 0.02988, accuracy - 98.44]
+[X] Epoch 48 :█▎                          | 1/9 [00:01<00:10,  1.32s/it, Cross_Entropy_loss - 0.02988, accuracy - 98.44]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+[X] Epoch 49 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 49 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 49 :                                                                                    | 0/9 [00:00<?, ?it/s]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+[X] Epoch 50 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 50 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 50 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 50 :                                                                                    | 0/9 [00:00<?, ?it/s]
+[X] Epoch 50 :                                                                                    | 0/9 [00:00<?, ?it/s]
+valid:   0%|                                                                                      | 0/9 [00:00<?, ?it/s]
+valid:   0%|                                                                                      | 0/7 [00:00<?, ?it/s]
+valid:   0%|                                                                                      | 0/7 [00:00<?, ?it/s]
+valid:   0%|                                                                                      | 0/7 [00:00<?, ?it/s]

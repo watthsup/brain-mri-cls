@@ -1,0 +1,6 @@
+
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to /data/users/6370327221/.cache/torch/hub/checkpoints/vgg16-397923af.pth
+train:   0%|                                                                                                                              | 0/1 [00:00<?, ?it/s]
+/data/users/6370327221/miniconda3/envs/hcc-cuda/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+
+train:   0%|                                                                                                                              | 0/1 [00:27<?, ?it/s]

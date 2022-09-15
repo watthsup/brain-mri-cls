@@ -1,0 +1,32 @@
+
+Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/efficientnet_b0_ra-3dd342df.pth" to /data/users/6370327221/.cache/torch/hub/checkpoints/efficientnet_b0_ra-3dd342df.pth
+[X] Start training efficientnet_b0_fold_1
+[X] Epoch 1 :
+
+
+
+
+train: 100%|██████████████████████████████| 36/36 [00:38<00:00,  1.06s/it, Cross_Entropy_loss - 1.166, accuracy - 69.04]
+valid: 100%|████████████████████████████████| 9/9 [00:05<00:00,  1.71it/s, Cross_Entropy_loss - 2.002, accuracy - 50.66]
+[X] Epoch 2 :
+
+
+
+
+train: 100%|█████████████████████████████| 36/36 [00:12<00:00,  2.78it/s, Cross_Entropy_loss - 0.4542, accuracy - 85.58]
+
+valid: 100%|██████████████████████████████████| 9/9 [00:06<00:00,  1.50it/s, Cross_Entropy_loss - 1.1, accuracy - 68.14]
+[X] Epoch 3 :
+
+
+
+train: 100%|██████████████████████████████| 36/36 [00:11<00:00,  3.25it/s, Cross_Entropy_loss - 0.288, accuracy - 90.07]
+
+valid: 100%|███████████████████████████████| 9/9 [00:05<00:00,  1.70it/s, Cross_Entropy_loss - 0.3567, accuracy - 88.47]
+[X] Epoch 4 :
+
+
+
+train: 100%|██████████████████████████████| 36/36 [00:12<00:00,  2.92it/s, Cross_Entropy_loss - 0.2108, accuracy - 92.3]
+
+valid:   0%|                                                                                      | 0/9 [00:01<?, ?it/s]
