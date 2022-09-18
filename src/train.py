@@ -191,6 +191,12 @@ def trainKfold(hyperparams, K=5):
         
 if __name__ == "__main__":
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
+    random_seed = 276
+    torch.manual_seed(random_seed)
+    torch.cuda.manual_seed(random_seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+    np.random.seed(random_seed)
     for backbone in ['vgg16', 'resnet18', 'resnet34', 'resnet50', 'seresnet18', 'seresnet34', 'seresnet50', 'efficientnet_b0', 'efficientnet_b1', 'efficientnet_b2', 'resnext50_32x4d','regnety_004', 'regnety_006', 'regnety_008']:
         hyperparams = dict(
                 backbone=backbone,
