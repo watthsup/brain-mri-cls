@@ -1,10 +1,9 @@
-from torch.utils.data import DataLoader, Subset
+from torch.utils.data import DataLoader, Subset, WeightedRandomSampler
 from torch import optim
 from torch.optim.lr_scheduler import ExponentialLR
 from albumentations.pytorch import ToTensorV2
 from warmup_scheduler import GradualWarmupScheduler
 from segmentation_models_pytorch.utils.train import TrainEpoch, ValidEpoch
-from segmentation_models_pytorch.losses import DiceLoss
 from sklearn.model_selection import KFold
 from metrics import accuracy_metric
 from dataset import BrainDataset
@@ -15,6 +14,7 @@ import albumentations as A
 import wandb
 import torch
 import json
+import numpy as np
 import os
 
 def get_dataset(root_dir, is_train=True):
@@ -40,6 +40,24 @@ def get_dataset(root_dir, is_train=True):
 
 def make_dataloader(dataset, batch_size):
     loader = DataLoader(dataset, shuffle=True, batch_size=batch_size, num_workers=8)
+    return loader
+
+def make_oversamp_loader(dataset,batch_size):
+    labels = []
+    for image, label in dataset:
+        labels.append(label.item())
+    values, counts = np.unique(labels, return_counts=True)
+    class_weights = [1/count for count in counts.tolist()]
+
+    sample_weights = [0] * len(dataset)
+
+    for idx, (image, labels) in enumerate(dataset):
+        class_weight = class_weights[labels.item()]
+        sample_weights[idx] = class_weight
+
+    sampler = WeightedRandomSampler(sample_weights, num_samples=len(sample_weights), replacement=True)
+    loader = DataLoader(dataset, batch_size=batch_size, sampler=sampler, num_workers=8)
+    print("[x] Create Oversampling data loader successful")
     return loader
 
 def create_model(config):
@@ -132,7 +150,10 @@ def trainKfold(hyperparams, K=5):
             train_subsampler = Subset(train_dataset,train_ids)
             val_subsampler = Subset(train_dataset,val_ids)
 
-            train_loader = make_dataloader(train_subsampler, config.batch_size)
+            if config.oversampling:
+                train_loader = make_oversamp_loader(train_subsampler, config.batch_size)
+            else:
+                train_loader = make_dataloader(train_subsampler, config.batch_size)
             val_loader = make_dataloader(val_subsampler, config.batch_size)
             test_loader = make_dataloader(test_dataset, hyperparams['batch_size'])
 
@@ -179,7 +200,8 @@ if __name__ == "__main__":
                 classes=int(cfg_file['classes']),
                 pretrained=cfg_file['pretrained'],
                 lr_warmup=json.loads(cfg_file['lr_warmup'].lower()),
-                lr=float(cfg_file['lr'])
+                lr=float(cfg_file['lr']),
+                oversampling=json.loads(cfg_file['oversampling'].lower())
                 )
 
         trainKfold(hyperparams, K=int(cfg_file['fold']))
