@@ -11,7 +11,7 @@ The dataset used in this project can be found on Kaggle: https://www.kaggle.com/
 - Utilizes PyTorch to train and evaluate several CNN backbones.
 - Offers a notebook for exploratory data analysis (EDA) and model inference, as well as a src folder for training the model.
 - Includes a config.ini file to customize the hyperparameters for the model.
-- The source code is well-organized, making it easy to adapt to other deep learning classification problems. There are only few parts you need to change i.e. dataset.py
+- The source code is well-organized, making it easy to adapt to other deep learning classification problems. There are only few parts you need to change i.e. dataset.py and config.ini
 
 ## Installation
 
