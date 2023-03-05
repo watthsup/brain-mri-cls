@@ -24,6 +24,9 @@ To install and run the application, please follow the steps below:
 5. Train the model by running `python train.py` in the `src` folder.
 6. Evaluate the model's performance by running `inference.ipynb` notebook in the `notebook` folder.
 
+## Results
+Please look at notebook/inference.ipynb for result summarize and simple error analysis
+
 ## Usage
 
 After following the installation steps above, you can use the application to classify brain tumors from MRI images. You can customize the hyperparameters in the `config.ini` file to achieve better performance.
